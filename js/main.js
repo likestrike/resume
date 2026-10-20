@@ -65,6 +65,19 @@
   if (!libsOk && !reduce) console.warn("Animation libraries not loaded — showing static layout.");
   var MOTION = !reduce && libsOk;
   document.documentElement.classList.add(MOTION ? "is-motion" : "is-static");
+  // ?debug=1 → 화면 하단에 모드/원인 표시 (실기기 확인용, 기본 숨김)
+  if (/[?&]debug=1/.test(location.search)) (function () {
+    var errs = [], box = document.createElement("pre");
+    box.style.cssText = "position:fixed;left:8px;right:8px;bottom:8px;z-index:99999;margin:0;padding:8px 10px;font:11px/1.45 monospace;white-space:pre-wrap;background:#111;color:#e8ff5a;border-radius:6px;opacity:.92;pointer-events:none";
+    function paint() {
+      var libs = ["gsap", "ScrollTrigger", "Flip", "Lenis"].map(function (k) { return k + (window[k] ? "✓" : "✗"); }).join(" ");
+      box.textContent = "mode: " + (MOTION ? "motion" : "static") + (reduce ? " (reduced-motion)" : "") + "\nlibs: " + libs +
+        "\nhero: " + (window.__hero ? Math.round(window.__hero.progress() * 100) + "%" : "-") + "  vw: " + innerWidth + "×" + innerHeight +
+        "\nerrors: " + (errs.length ? errs.join(" | ") : "0") + "\n" + navigator.userAgent;
+    }
+    window.addEventListener("error", function (e) { errs.push(e.message || (e.target && e.target.src) || "error"); paint(); }, true);
+    document.body.appendChild(box); paint(); setInterval(paint, 500);
+  })();
   var gsap = window.gsap, ScrollTrigger = window.ScrollTrigger, Flip = window.Flip;
   if (MOTION) gsap.registerPlugin(ScrollTrigger, Flip);
 
