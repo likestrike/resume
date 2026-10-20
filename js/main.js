@@ -364,6 +364,8 @@
   function basisTag(basis) {
     if (!basis) return null;
     if (basis.indexOf("inferred-from") === 0) return h("span", { class: "tag-basis tag-basis--inf", title: "근거 — " + basis.replace("inferred-from: ", ""), text: "추론" });
+    var qa = /^user-answer [0-9-]+ ((?:Q\d+(?:, )?)+): /.exec(basis);
+    if (qa) return h("span", { class: "tag-basis tag-basis--user", title: "본인 추가 진술(보강 질문 " + qa[1] + " 답변) — " + basis.slice(qa[0].length), text: "추가" });
     if (basis.indexOf("user-") === 0) return h("span", { class: "tag-basis tag-basis--user", title: "본인 추가 진술 — " + basis.replace(/^user-[0-9-]+: /, ""), text: "추가" });
     return null;
   }
