@@ -103,12 +103,6 @@ svg text { font-family: var(--sans); }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag { display: inline-block; padding: 3px 9px; border: 1px solid var(--ink); border-radius: 4px; font-family: var(--mono); font-size: 12px; line-height: 1.6; color: var(--ink); background: var(--paper); }
 .tag--added { border-style: dashed; }
-.tag-basis {
-  display: inline-block; vertical-align: 2px; margin-left: 2px; padding: 0 6px; border-radius: 3px;
-  font-family: var(--mono); font-size: 10.5px; line-height: 1.7; font-weight: 500; white-space: nowrap; cursor: help;
-}
-.tag-basis--inf { border: 1px dashed var(--ink-3); color: var(--ink-2); }
-.tag-basis--user { border: 1px solid var(--ink); background: var(--lime-soft); color: var(--ink); }
 .term-dots { display: inline-flex; gap: 5px; }
 .term-dots i { width: 9px; height: 9px; border: var(--line) solid var(--ink); border-radius: 50%; }
 
@@ -408,7 +402,6 @@ svg text { font-family: var(--sans); }
 .pf-head { max-width: 760px; }
 .pf-head .sec-title { margin-top: 8px; }
 .pf-intro { margin-top: 16px; font-size: var(--fs-lg); line-height: 1.6; }
-.pf-basis { margin-top: 14px; font-size: var(--fs-xs); color: var(--ink-2); line-height: 1.7; }
 .pf-layout { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 48px; margin-top: 56px; }
 .pf-rail { position: sticky; top: calc(var(--bar-h) + 24px); align-self: start; }
 .pf-rail ol { border-left: 1px solid var(--rule); }

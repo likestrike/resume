@@ -44,7 +44,7 @@
   function yearOf(ym) { return ym ? ym.slice(0, 4) : null; }
   function fmt(n) { return Math.round(n).toLocaleString("ko-KR"); }
   /* 한글이 든 모노 라벨 → .mono-kr (Pretendard + 고정폭 숫자). JetBrains Mono의 0.6em 공백·자간 때문에 한글이 벌어져 보이는 문제 */
-  var MONO_SEL = ".mono, .tag, .tag-basis, .badge, .iso-call, .iso-year, .vz-sub, .vz-elabel, .vz-tag, .vz-steps li, .vz-cap";
+  var MONO_SEL = ".mono, .tag, .badge, .iso-call, .iso-year, .vz-sub, .vz-elabel, .vz-tag, .vz-steps li, .vz-cap";
   var HANGUL = /[ㄱ-ㆎ가-힣]/;
   function tagMonoKr(root) {
     $$(MONO_SEL, root).forEach(function (el) { el.classList.toggle("mono-kr", HANGUL.test(el.textContent)); });
@@ -271,8 +271,8 @@
     if (e.relatedWorks) nodes.push(h(H2, { class: "d-h", text: "참여 작품" }), h("p", { text: e.relatedWorks.join(", ") }));
     if (e.userAdditions) {
       var ua = e.userAdditions;
-      nodes.push(h("section", { class: "d-added", "data-source": ua.source }, [
-        h(H2, { class: "d-h" }, [ua.title, h("span", { class: "tag-basis tag-basis--user", text: "추가" })]),
+      nodes.push(h("section", { class: "d-added" }, [
+        h(H2, { class: "d-h", text: ua.title }),
         bullets(ua.items.map(function (i) { return i.text; })),
         ua.tech && ua.tech.length ? tags(ua.tech.map(function (t) { return t.name; }), "tag--added") : null
       ]));
@@ -342,12 +342,6 @@
      PORTFOLIO
      ================================================================== */
   slot("pf-count").textContent = "/ " + NC + " projects";
-  slot("pf-basis").innerHTML = "";
-  append(slot("pf-basis"), [
-    h("span", { class: "tag-basis tag-basis--inf", text: "추론" }), " ",
-    h("span", { class: "tag-basis tag-basis--user", text: "추가" }), " ",
-    R.portfolio.basisNote
-  ]);
   var pfRail = slot("pf-rail"), pfCases = slot("pf-cases");
   var railLinks = [];
   append(pfRail, h("ol", null, EXP.map(function (e, i) {
@@ -361,14 +355,6 @@
   })));
 
   var vizCtrls = [];
-  function basisTag(basis) {
-    if (!basis) return null;
-    if (basis.indexOf("inferred-from") === 0) return h("span", { class: "tag-basis tag-basis--inf", title: "근거 — " + basis.replace("inferred-from: ", ""), text: "추론" });
-    var qa = /^user-answer [0-9-]+ ((?:Q\d+(?:, )?)+): /.exec(basis);
-    if (qa) return h("span", { class: "tag-basis tag-basis--user", title: "본인 추가 진술(보강 질문 " + qa[1] + " 답변) — " + basis.slice(qa[0].length), text: "추가" });
-    if (basis.indexOf("user-") === 0) return h("span", { class: "tag-basis tag-basis--user", title: "본인 추가 진술 — " + basis.replace(/^user-[0-9-]+: /, ""), text: "추가" });
-    return null;
-  }
   var STEP_OF = { problem: 0, solution: 1, result: 2 };
 
   EXP.forEach(function (e, gi) {
@@ -388,11 +374,10 @@
         return h("li", { "data-step": STEP_OF[b.key], text: b.label });
       })) : null;
       if (stepsLegend) fig.appendChild(stepsLegend);
-      if (c.viz.caption) fig.appendChild(h("figcaption", { class: "vz-cap mono", text: c.viz.caption }));
       var blocks = h("div", { class: "case-blocks" }, c.blocks.map(function (b) {
         return h("section", { class: "blk blk--" + b.key, "data-step": STEP_OF[b.key] }, [
           h("h5", { class: "blk-label mono" }, [h("span", { class: "blk-no", text: pad2(STEP_OF[b.key] + 1) }), b.label]),
-          h("ul", { class: "blk-items" }, b.items.map(function (it) { return h("li", null, [it.text, " ", basisTag(it.basis)]); }))
+          h("ul", { class: "blk-items" }, b.items.map(function (it) { return h("li", null, [it.text]); }))
         ]);
       }));
       var metrics = c.metrics ? h("div", { class: "case-metrics" }, c.metrics.map(function (m) {

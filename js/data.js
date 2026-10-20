@@ -2,8 +2,7 @@
 window.RESUME = {
   "meta": {
     "derivedFrom": "data/resume.json",
-    "generated": "2026-10-21",
-    "policy": "공개용. 연락처는 이메일만 포함. 전화번호·주소·생년/나이·성별·사진·희망연봉·첨부파일 링크 제외. 변경 내역은 data/edits-log.md 참조."
+    "generated": "2026-10-21"
   },
   "basics": {
     "name": "심은성",
@@ -153,25 +152,20 @@ window.RESUME = {
       ],
       "userAdditions": {
         "title": "백엔드 설계",
-        "source": "user-2026-10-20",
         "items": [
           {
-            "text": "센드빌 전자세금계산서 서비스: 팀원으로 Java·JSP 기반 백엔드 개발에 참여.",
-            "source": "user-2026-10-20"
+            "text": "센드빌 전자세금계산서 서비스: 팀원으로 Java·JSP 기반 백엔드 개발에 참여."
           },
           {
-            "text": "대한상공회의소 전자세금계산서 ADMIN 관리 시스템을 단독으로 설계·개발(백엔드·화면·DB).",
-            "source": "user-2026-10-20"
+            "text": "대한상공회의소 전자세금계산서 ADMIN 관리 시스템을 단독으로 설계·개발(백엔드·화면·DB)."
           },
           {
-            "text": "Java·JSP 기반으로 요청 처리·비즈니스 로직·데이터 접근 계층을 분리한 백엔드 구조 설계 및 DB 스키마 설계.",
-            "source": "user-2026-10-20"
+            "text": "Java·JSP 기반으로 요청 처리·비즈니스 로직·데이터 접근 계층을 분리한 백엔드 구조 설계 및 DB 스키마 설계."
           }
         ],
         "tech": []
       },
-      "months": 23,
-      "monthsBasis": "period start~end 포함 개월 수"
+      "months": 23
     },
     {
       "id": "miryung-ace",
@@ -198,7 +192,7 @@ window.RESUME = {
       ],
       "department": null,
       "jobFunction": "백엔드/서버개발",
-      "summary": "Java/Spring 기반 CRM 서버 API·DB 마이그레이션, 전자서명 Gateway·암복호화 로직 구현. 스케줄러 기반 배치 서버와 데이터 수집 시스템 개발.",
+      "summary": "Java/Spring 기반 CRM 서버 API 일부 모듈·DB 마이그레이션, 전자서명 Gateway·암복호화 로직 구현. 스케줄러 기반 배치 서버와 데이터 수집 시스템 개발.",
       "projects": [
         {
           "no": 1,
@@ -215,7 +209,7 @@ window.RESUME = {
             "PDFSigner"
           ],
           "achievements": [
-            "행안부 통합 App의 Java/Spring 서버 API를 설계해 사용자·업무 데이터를 통합 관리. CRM DB 마이그레이션 및 운영관리."
+            "행안부 통합 App의 Java/Spring 서버 API 중 일부 모듈(PDFSigner 전자서명·타임스탬프 전송 구간 등)을 담당. 이 서버는 사용자·업무 데이터를 통합 관리. CRM DB 마이그레이션 및 운영관리."
           ]
         },
         {
@@ -236,8 +230,7 @@ window.RESUME = {
           ]
         }
       ],
-      "months": 13,
-      "monthsBasis": "period start~end 포함 개월 수"
+      "months": 13
     },
     {
       "id": "wisestone",
@@ -264,7 +257,7 @@ window.RESUME = {
       ],
       "department": null,
       "jobFunction": "백엔드/서버개발",
-      "summary": "Java/Spring 기반 광고 서버 API·CPA/CPM 로그 집계 배치 개발. 농협 통합 앱 RESTful API·백오피스 구축, 공항철도 모바일 웹 PL 및 실시간 운행정보 API 설계.",
+      "summary": "Java/Spring 기반 광고 서버 API·CPA/CPM 로그 집계 배치 개발. 농협 통합 앱 RESTful API·백오피스 구축, 공항철도 모바일 웹 PL 및 운행정보 API(공항철도 서버 데이터 15분 단위 갱신) 설계.",
       "projects": [
         {
           "no": 1,
@@ -319,15 +312,14 @@ window.RESUME = {
             "ASP.NET"
           ],
           "achievements": [
-            "반응형 모바일 웹 기획·개발 리드. 기존 Java 시스템 리팩터링, MySQL 마이그레이션·코드 포팅 및 실시간 운행정보 API 신규 설계."
+            "반응형 모바일 웹 기획·개발 리드. 기존 Java 시스템 리팩터링, MySQL 마이그레이션·코드 포팅 및 운행정보 API(공항철도 서버 데이터 15분 단위 갱신) 신규 설계."
           ],
           "clients": [
             "공항철도"
           ]
         }
       ],
-      "months": 23,
-      "monthsBasis": "period start~end 포함 개월 수"
+      "months": 23
     },
     {
       "id": "locus",
@@ -399,7 +391,7 @@ window.RESUME = {
         {
           "no": 3,
           "name": "영상 및 이미지 리뷰 시스템 고도화",
-          "role": "프로토타입 개발 참여",
+          "role": "프로토타입 설계·개발(단독)",
           "tech": [
             "Three.js",
             "JavaScript",
@@ -423,8 +415,7 @@ window.RESUME = {
         "<레드슈즈>",
         "<퇴마록>"
       ],
-      "months": 91,
-      "monthsBasis": "period start~end 포함 개월 수"
+      "months": 91
     },
     {
       "id": "ignet",
@@ -540,70 +531,54 @@ window.RESUME = {
       ],
       "userAdditions": {
         "title": "백엔드 및 클라우드 인프라",
-        "source": "user-2026-10-20",
         "items": [
           {
-            "text": "Java 기반 백엔드 로직 설계.",
-            "source": "user-2026-10-20"
+            "text": "Java 기반 백엔드 로직 설계."
           },
           {
-            "text": "Google Cloud(GCP)·Naver Cloud Platform(NCP) 클라우드 인프라 구축: VM 인스턴스 생성 및 구성(GCP Compute Engine, NCP Server).",
-            "source": "user-2026-10-20"
+            "text": "Google Cloud(GCP)·Naver Cloud Platform(NCP) 클라우드 인프라 구축: VM 인스턴스 생성 및 구성(GCP Compute Engine, NCP Server)."
           },
           {
-            "text": "BigQuery 구성 및 활용.",
-            "source": "user-2026-10-20"
+            "text": "BigQuery 구성 및 활용."
           },
           {
-            "text": "서비스 도메인 연결(DNS 설정).",
-            "source": "user-2026-10-20"
+            "text": "서비스 도메인 연결(DNS 설정)."
           },
           {
-            "text": "인바운드/아웃바운드 방화벽 규칙 설정(GCP VPC 방화벽, NCP ACG).",
-            "source": "user-2026-10-20"
+            "text": "인바운드/아웃바운드 방화벽 규칙 설정(GCP VPC 방화벽, NCP ACG)."
           },
           {
-            "text": "NAT 게이트웨이 구성(GCP Cloud NAT, NCP NAT Gateway).",
-            "source": "user-2026-10-20"
+            "text": "NAT 게이트웨이 구성(GCP Cloud NAT, NCP NAT Gateway)."
           }
         ],
         "tech": [
           {
-            "name": "Java",
-            "source": "user-2026-10-20"
+            "name": "Java"
           },
           {
-            "name": "GCP Compute Engine",
-            "source": "user-2026-10-20"
+            "name": "GCP Compute Engine"
           },
           {
-            "name": "BigQuery",
-            "source": "user-2026-10-20"
+            "name": "BigQuery"
           },
           {
-            "name": "NCP Server",
-            "source": "user-2026-10-20"
+            "name": "NCP Server"
           },
           {
-            "name": "GCP VPC 방화벽",
-            "source": "user-2026-10-20"
+            "name": "GCP VPC 방화벽"
           },
           {
-            "name": "NCP ACG",
-            "source": "user-2026-10-20"
+            "name": "NCP ACG"
           },
           {
-            "name": "GCP Cloud NAT",
-            "source": "user-2026-10-20"
+            "name": "GCP Cloud NAT"
           },
           {
-            "name": "NCP NAT Gateway",
-            "source": "user-2026-10-20"
+            "name": "NCP NAT Gateway"
           }
         ]
       },
-      "months": 17,
-      "monthsBasis": "period start~end 포함 개월 수"
+      "months": 17
     },
     {
       "id": "studio-lennon",
@@ -733,30 +708,24 @@ window.RESUME = {
       ],
       "userAdditions": {
         "title": "백엔드 설계",
-        "source": "user-2026-10-20",
         "items": [
           {
-            "text": "VFX 프로젝트 관리 시스템 설계 및 개발 담당: 테이블 설계부터 시스템 전체 구조까지 직접 설계·구축.",
-            "source": "user-2026-10-20"
+            "text": "VFX 프로젝트 관리 시스템 설계 및 개발 담당: 테이블 설계부터 시스템 전체 구조까지 직접 설계·구축."
           },
           {
-            "text": "FastAPI와 Nest.js로 REST API를 직접 구축 — Nest.js 모듈·컨트롤러·서비스 계층 구조, FastAPI·Pydantic v2·SQLAlchemy 2.x async 기반 요청 스키마 검증과 비동기 DB 접근.",
-            "source": "user-2026-10-20"
+            "text": "FastAPI와 Nest.js로 REST API를 직접 구축 — Nest.js 모듈·컨트롤러·서비스 계층 구조, FastAPI·Pydantic v2·SQLAlchemy 2.x async 기반 요청 스키마 검증과 비동기 DB 접근."
           },
           {
-            "text": "MySQL 테이블 스키마 설계 및 Docker 기반 실행 환경 구성.",
-            "source": "user-2026-10-20"
+            "text": "MySQL 테이블 스키마 설계 및 Docker 기반 실행 환경 구성."
           }
         ],
         "tech": [
           {
-            "name": "REST API",
-            "source": "user-2026-10-20"
+            "name": "REST API"
           }
         ]
       },
-      "months": 45,
-      "monthsBasis": "period start~end 포함 개월 수 (재직중: PDF 작성 시점 2026-10 기준)"
+      "months": 45
     }
   ],
   "education": [
@@ -820,7 +789,6 @@ window.RESUME = {
   "portfolio": {
     "title": "프로젝트 경력기술서",
     "intro": "6개 회사에서 수행한 19개 프로젝트의 과제와 수행 내용, 성과, 시스템 구성을 정리했습니다.",
-    "basisNote": "‘추론’ 표시 문장은 이력서 원문에서 유추한 배경 설명이고, ‘추가’ 표시는 이력서 작성 이후 본인이 보충한 내용입니다. 나머지는 이력서 원문입니다.",
     "cases": [
       {
         "id": "netmania-1",
@@ -830,8 +798,7 @@ window.RESUME = {
         "role": "팀원",
         "featured": false,
         "oneLine": {
-          "text": "국세청 홈택스 전자세금계산서 연계 API 서버 구축 및 API 통신·로그 모니터링 시스템 개발.",
-          "basis": "direct: experience[netmania].projects[1].achievements[0]"
+          "text": "국세청 홈택스 전자세금계산서 연계 API 서버 구축 및 API 통신·로그 모니터링 시스템 개발."
         },
         "blocks": [
           {
@@ -839,12 +806,10 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "국세청이 전자세금계산서 API를 출시하면서, 세금계산서 정보를 API로 국세청에 전송해 처리하는 연계가 필요했습니다.",
-                "basis": "user-answer 2026-10-21 Q2: Q2 「국세청에서 전자세금계산서 API 출시가 되었고, 세금계산서 정보를 API로 국세청에 올려서 처리 하는 방식이었음.」"
+                "text": "국세청이 전자세금계산서 API를 출시하면서, 세금계산서 정보를 API로 국세청에 전송해 처리하는 연계가 필요했습니다."
               },
               {
-                "text": "외부 기관 연계 서비스라 중단 없이 안정적으로 운영되는 구조가 필요했습니다.",
-                "basis": "inferred-from: DB·서버 이중화 구성으로 외부 기관 연계 서비스의 안정적 운영 지원."
+                "text": "외부 기관 연계 서비스라 중단 없이 안정적으로 운영되는 구조가 필요했습니다."
               }
             ]
           },
@@ -853,24 +818,19 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "국세청 홈택스 연계 API 서버를 구축하고, API 통신과 로그를 지켜보는 모니터링 시스템을 개발했습니다.",
-                "basis": "direct: 국세청 홈택스 전자세금계산서 연계 API 서버 구축 및 API 통신·로그 모니터링 시스템 개발."
+                "text": "국세청 홈택스 연계 API 서버를 구축하고, API 통신과 로그를 지켜보는 모니터링 시스템을 개발했습니다."
               },
               {
-                "text": "팀 내에서 국세청 API 규격에 맞춰 데이터를 가공·전송하는 구간과, 모니터링 시스템의 데이터 전처리·UI 구성을 맡았습니다.",
-                "basis": "user-answer 2026-10-21 Q4: Q4 「나는 API 포맷에 맞게 데이터를 가공하고」 / Q4 「모니터링은 데이터 전처리랑 UI 구성」"
+                "text": "팀 내에서 국세청 API 규격에 맞춰 데이터를 가공·전송하는 구간과, 모니터링 시스템의 데이터 전처리·UI 구성을 맡았습니다."
               },
               {
-                "text": "모니터링 시스템으로 전송 실패 건 재처리와 응답 지연을 관리했습니다.",
-                "basis": "user-answer 2026-10-21 Q3: Q3 「전송 실패 재처리, 응답 지연」"
+                "text": "모니터링 시스템으로 전송 실패 건 재처리와 응답 지연을 관리했습니다."
               },
               {
-                "text": "DB와 서버를 이중화로 구성했습니다.",
-                "basis": "direct: DB·서버 이중화 구성"
+                "text": "DB와 서버를 이중화로 구성했습니다."
               },
               {
-                "text": "서버를 2대로 구성해 한 대가 중단되면 다른 서버로 연결되도록 했습니다.",
-                "basis": "user-answer 2026-10-21 Q1: Q1 「서버 두개로 해서 하나가 죽으면 다른 하나가 연결 되게 하는 방식」"
+                "text": "서버를 2대로 구성해 한 대가 중단되면 다른 서버로 연결되도록 했습니다."
               }
             ]
           },
@@ -879,8 +839,7 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "외부 기관 연계 서비스의 안정적 운영을 지원했습니다.",
-                "basis": "direct: 외부 기관 연계 서비스의 안정적 운영 지원."
+                "text": "외부 기관 연계 서비스의 안정적 운영을 지원했습니다."
               }
             ]
           }
@@ -944,8 +903,7 @@ window.RESUME = {
           "hl": [
             "api",
             "db"
-          ],
-          "caption": "이중선 = 이중화 구성(서버 2대, 한 대 중단 시 다른 서버로 연결). 노드는 프로젝트 원문과 본인 답변(Q1–Q4)에 나온 시스템만 표시."
+          ]
         },
         "tech": [
           "Java",
@@ -962,8 +920,7 @@ window.RESUME = {
         "role": "팀원",
         "featured": false,
         "oneLine": {
-          "text": "설치형 전자세금계산서 솔루션 개발·패키징 및 ADMIN 관리 시스템 구축. 대한상공회의소·신세계·동부C&I 등 고객사 구축 참여.",
-          "basis": "direct: experience[netmania].projects[2].achievements[0]"
+          "text": "설치형 전자세금계산서 솔루션 개발·패키징 및 ADMIN 관리 시스템 구축. 대한상공회의소·신세계·동부C&I 등 고객사 구축 참여."
         },
         "blocks": [
           {
@@ -971,12 +928,10 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "고객사마다 설치해 쓰는 솔루션이라, 기능을 패키징해 각 고객사 환경에 구축해야 했습니다.",
-                "basis": "inferred-from: 설치형 전자세금계산서 솔루션 개발·패키징 / 고객사 구축 참여"
+                "text": "고객사마다 설치해 쓰는 솔루션이라, 기능을 패키징해 각 고객사 환경에 구축해야 했습니다."
               },
               {
-                "text": "1,000건 단위의 대량 발행을 안정적으로 전송해야 했습니다.",
-                "basis": "user-answer 2026-10-21 Q6: Q6 「1000건 발행으로 안정성을 위해」"
+                "text": "1,000건 단위의 대량 발행을 안정적으로 전송해야 했습니다."
               }
             ]
           },
@@ -985,32 +940,25 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "설치형 전자세금계산서 솔루션을 개발·패키징하고 ADMIN 관리 시스템을 구축했습니다.",
-                "basis": "direct: 설치형 전자세금계산서 솔루션 개발·패키징 및 ADMIN 관리 시스템 구축."
+                "text": "설치형 전자세금계산서 솔루션을 개발·패키징하고 ADMIN 관리 시스템을 구축했습니다."
               },
               {
-                "text": "대한상공회의소 전자세금계산서 ADMIN 관리 시스템은 단독으로 설계·개발했습니다(백엔드·화면·DB).",
-                "basis": "user-2026-10-20: 대한상공회의소 전자세금계산서 ADMIN 관리 시스템을 단독으로 설계·개발(백엔드·화면·DB)."
+                "text": "대한상공회의소 전자세금계산서 ADMIN 관리 시스템은 단독으로 설계·개발했습니다(백엔드·화면·DB)."
               },
               {
-                "text": "Java·JSP 기반으로 요청 처리·비즈니스 로직·데이터 접근 계층을 분리한 백엔드 구조와 DB 스키마를 설계했습니다.",
-                "basis": "user-2026-10-20: Java·JSP 기반으로 요청 처리·비즈니스 로직·데이터 접근 계층을 분리한 백엔드 구조 설계 및 DB 스키마 설계."
+                "text": "Java·JSP 기반으로 요청 처리·비즈니스 로직·데이터 접근 계층을 분리한 백엔드 구조와 DB 스키마를 설계했습니다."
               },
               {
-                "text": "ADMIN 관리 시스템에는 사용자 관리, 세금계산서 전송관리, 사이트 메뉴 관리 등 관리자 기능을 담았습니다.",
-                "basis": "user-answer 2026-10-21 Q7: Q7 「관리자형 사이트가 있는데 사용자, 세금계산서 전송관리, 사이트 메뉴 관리 등 관리자 기능」"
+                "text": "ADMIN 관리 시스템에는 사용자 관리, 세금계산서 전송관리, 사이트 메뉴 관리 등 관리자 기능을 담았습니다."
               },
               {
-                "text": "센드빌 전자세금계산서 발급 서비스를 개발·운영하고, 대량 문건 처리용 Java Windows Agent Client를 개발했습니다.",
-                "basis": "direct: 센드빌 전자세금계산서 발급 서비스 개발·운영 및 대량 문건 처리용 Java Windows Agent Client 개발."
+                "text": "센드빌 전자세금계산서 발급 서비스를 개발·운영하고, 대량 문건 처리용 Java Windows Agent Client를 개발했습니다."
               },
               {
-                "text": "Agent Client는 1,000건 발행 시 안정성을 위해 100건씩 나눠 전송하도록 구현했습니다.",
-                "basis": "user-answer 2026-10-21 Q6: Q6 「1000건 발행으로 안정성을 위해 100건씩 전송하게 했음.」"
+                "text": "Agent Client는 1,000건 발행 시 안정성을 위해 100건씩 나눠 전송하도록 구현했습니다."
               },
               {
-                "text": "엑셀 데이터로 만드는 기능을 개발했습니다.",
-                "basis": "user-answer 2026-10-21 Q5: Q5 「엑셀 데이터로 만드는 기능 만들었다.」"
+                "text": "엑셀 데이터로 만드는 기능을 개발했습니다."
               }
             ]
           },
@@ -1019,12 +967,10 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "대한상공회의소·신세계·동부C&I 등 고객사 구축에 참여했습니다.",
-                "basis": "direct: 대한상공회의소·신세계·동부C&I 등 고객사 구축 참여."
+                "text": "대한상공회의소·신세계·동부C&I 등 고객사 구축에 참여했습니다."
               },
               {
-                "text": "전송 시간을 단축했습니다.",
-                "basis": "user-answer 2026-10-21 Q5: Q5 「전송 시간 단축」"
+                "text": "전송 시간을 단축했습니다."
               }
             ]
           }
@@ -1060,8 +1006,7 @@ window.RESUME = {
               "신세계",
               "동부C&I 등"
             ]
-          },
-          "caption": "대한상공회의소 ADMIN 관리 시스템의 계층 구조(사용자 추가 진술 기반). 관리자 기능은 본인 답변(Q7)."
+          }
         },
         "tech": [
           "Java",
@@ -1074,8 +1019,7 @@ window.RESUME = {
           {
             "value": 100,
             "unit": "건씩",
-            "label": "1,000건 발행 시 분할 전송 단위 (Agent Client)",
-            "basis": "user-answer 2026-10-21 Q6: 1000건 발행으로 안정성을 위해 100건씩 전송하게 했음."
+            "label": "1,000건 발행 시 분할 전송 단위 (Agent Client)"
           }
         ],
         "no": 2
@@ -1088,8 +1032,7 @@ window.RESUME = {
         "role": "백엔드 팀원",
         "featured": false,
         "oneLine": {
-          "text": "행안부 통합 App의 Java/Spring 서버 API를 설계해 사용자·업무 데이터를 통합 관리. CRM DB 마이그레이션 및 운영관리.",
-          "basis": "direct: experience[miryung-ace].projects[1].achievements[0]"
+          "text": "행안부 통합 App의 Java/Spring 서버 API 중 일부 모듈(PDFSigner 전자서명·타임스탬프 전송 구간 등)을 담당. 이 서버는 사용자·업무 데이터를 통합 관리. CRM DB 마이그레이션 및 운영관리."
         },
         "blocks": [
           {
@@ -1097,8 +1040,7 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "행안부 통합 App의 사용자·업무 데이터를 한곳에서 관리할 서버가 필요했습니다.",
-                "basis": "inferred-from: 서버 API를 설계해 사용자·업무 데이터를 통합 관리"
+                "text": "행안부 통합 App의 사용자·업무 데이터를 한곳에서 관리할 서버가 필요했습니다."
               }
             ]
           },
@@ -1107,16 +1049,13 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "Java/Spring 서버 API를 설계했습니다.",
-                "basis": "direct: 행안부 통합 App의 Java/Spring 서버 API를 설계해"
+                "text": "행안부 통합 App의 Java/Spring 서버 API 중 일부 모듈을 담당했습니다."
               },
               {
-                "text": "서버 API 중 일부 모듈을 개발했습니다. 오픈소스 PDFSigner로 전자서명 도장을 생성하고, 타임스탬프 정보를 서버로 전송하는 구간입니다.",
-                "basis": "user-answer 2026-10-21 Q10: Q10 「일부 모듈을 만들었다. PDF signer라는 오픈소스로 전자 서명 도장을 만들고 거기 타임스탬프 정보를 서버에 전송하는 구간.」"
+                "text": "그중 오픈소스 PDFSigner로 전자서명 도장을 생성하고, 타임스탬프 정보를 서버로 전송하는 구간을 맡았습니다."
               },
               {
-                "text": "CRM DB를 마이그레이션하고 운영관리를 맡았습니다.",
-                "basis": "direct: CRM DB 마이그레이션 및 운영관리."
+                "text": "CRM DB를 마이그레이션하고 운영관리를 맡았습니다."
               }
             ]
           },
@@ -1125,8 +1064,7 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "사용자·업무 데이터를 통합 관리할 수 있게 되었습니다.",
-                "basis": "direct: 사용자·업무 데이터를 통합 관리"
+                "text": "사용자·업무 데이터를 통합 관리할 수 있게 되었습니다."
               }
             ]
           }
@@ -1213,8 +1151,7 @@ window.RESUME = {
           ],
           "hl": [
             "data"
-          ],
-          "caption": "PDFSigner 구간은 본인 답변(Q10) 기준의 담당 모듈."
+          ]
         },
         "tech": [
           "Java",
@@ -1236,8 +1173,7 @@ window.RESUME = {
         "role": "백엔드 팀원",
         "featured": false,
         "oneLine": {
-          "text": "MR-Estamp 전자서명 Gateway·서버 API·암복호화 로직, 스케줄러 기반 배치 서버와 데이터 수집 시스템 구현.",
-          "basis": "direct: experience[miryung-ace].projects[2].achievements[0]"
+          "text": "MR-Estamp 전자서명 Gateway·서버 API·암복호화 로직, 스케줄러 기반 배치 서버와 데이터 수집 시스템 구현."
         },
         "blocks": [
           {
@@ -1245,8 +1181,7 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "관공서에서 사용하도록 정부가 시행하던 전자서명 사업이었습니다.",
-                "basis": "user-answer 2026-10-21 Q13: Q13 「관공서에 사용하려고 정부에서 시행하던 거였는데.」"
+                "text": "관공서에서 사용하도록 정부가 시행하던 전자서명 사업이었습니다."
               }
             ]
           },
@@ -1255,20 +1190,16 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "MR-Estamp 전자서명 Gateway와 서버 API, 암복호화 로직을 구현했습니다.",
-                "basis": "direct: MR-Estamp 전자서명 Gateway·서버 API·암복호화 로직"
+                "text": "MR-Estamp 전자서명 Gateway와 서버 API, 암복호화 로직을 구현했습니다."
               },
               {
-                "text": "스케줄러 기반 배치 서버와 데이터 수집 시스템을 구현했습니다.",
-                "basis": "direct: 스케줄러 기반 배치 서버와 데이터 수집 시스템 구현."
+                "text": "스케줄러 기반 배치 서버와 데이터 수집 시스템을 구현했습니다."
               },
               {
-                "text": "스케줄러가 1시간마다 발급 정보와 서버 로그 기록을 대조하고 토큰 인증 정보를 수집하도록 했습니다.",
-                "basis": "user-answer 2026-10-21 Q12: Q12 「일 시간에 한번씩 발급 정보와 서버 로그 기록된 정보를 대조, 토큰 인증 정보를 수집.」"
+                "text": "스케줄러가 1시간마다 발급 정보와 서버 로그 기록을 대조하고 토큰 인증 정보를 수집하도록 했습니다."
               },
               {
-                "text": "PDFSigner 토큰 삽입·검증 로직을 개발했습니다.",
-                "basis": "direct: PDFSigner 토큰 삽입·검증 로직 개발."
+                "text": "PDFSigner 토큰 삽입·검증 로직을 개발했습니다."
               }
             ]
           }
@@ -1375,8 +1306,7 @@ window.RESUME = {
               "s": 1
             }
           ],
-          "hl": [],
-          "caption": "원문에 성과 서술이 없어 구현 범위만 도식화. 배치 주기·대조 대상은 본인 답변(Q12)."
+          "hl": []
         },
         "tech": [
           "Java",
@@ -1396,8 +1326,7 @@ window.RESUME = {
         "role": "팀원",
         "featured": false,
         "oneLine": {
-          "text": "SK Planet T-AD·T Store AD 광고 서버 API 운영·개발 지원 및 CPA/CPM 모니터링 로그 집계 배치 개발.",
-          "basis": "direct: experience[wisestone].projects[1].achievements[0]"
+          "text": "SK Planet T-AD·T Store AD 광고 서버 API 운영·개발 지원 및 CPA/CPM 모니터링 로그 집계 배치 개발."
         },
         "blocks": [
           {
@@ -1405,8 +1334,7 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "CPA/CPM 로그를 집계·리포트하는 체계가 없어 새로 만들어야 했습니다.",
-                "basis": "user-answer 2026-10-21 Q15: Q15 「없어서 만듬」 / 원문 「CPA/CPM 모니터링 로그 집계 배치 개발.」"
+                "text": "CPA/CPM 로그를 집계·리포트하는 체계가 없어 새로 만들어야 했습니다."
               }
             ]
           },
@@ -1415,20 +1343,16 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "SK Planet T-AD·T Store AD 광고 서버 API의 운영·개발을 지원했습니다.",
-                "basis": "direct: SK Planet T-AD·T Store AD 광고 서버 API 운영·개발 지원"
+                "text": "SK Planet T-AD·T Store AD 광고 서버 API의 운영·개발을 지원했습니다."
               },
               {
-                "text": "CPA/CPM 모니터링 로그 집계 배치를 개발했습니다.",
-                "basis": "direct: CPA/CPM 모니터링 로그 집계 배치 개발."
+                "text": "CPA/CPM 모니터링 로그 집계 배치를 개발했습니다."
               },
               {
-                "text": "Shell Script로 리포트를 자동화하고, 에러 로그 추적과 QA 모니터링 도구를 구현했습니다.",
-                "basis": "direct: Shell Script 리포트 자동화, 에러 로그 추적과 QA 모니터링 도구 구현."
+                "text": "Shell Script로 리포트를 자동화하고, 에러 로그 추적과 QA 모니터링 도구를 구현했습니다."
               },
               {
-                "text": "광고 노출 DB 테이블 마이그레이션을 지원했습니다.",
-                "basis": "direct: 광고 노출 DB 테이블 마이그레이션 지원."
+                "text": "광고 노출 DB 테이블 마이그레이션을 지원했습니다."
               }
             ]
           }
@@ -1540,8 +1464,7 @@ window.RESUME = {
         "role": "팀원",
         "featured": false,
         "oneLine": {
-          "text": "종합 포털 앱의 RESTful API 서버 및 배너·식단 등 내부 운영 기능을 통합한 웹 백오피스 개발. 부서 간 데이터 접근 경로를 단일화해 유지보수성 개선.",
-          "basis": "direct: experience[wisestone].projects[2].achievements[0]"
+          "text": "종합 포털 앱의 RESTful API 서버 및 배너·식단 등 내부 운영 기능을 통합한 웹 백오피스 개발. 부서 간 데이터 접근 경로를 단일화해 유지보수성 개선."
         },
         "blocks": [
           {
@@ -1549,8 +1472,7 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "웹·API가 5개로 나뉘어 있었습니다.",
-                "basis": "user-answer 2026-10-21 Q18: Q18 「5개의 웹, API를 하나의 시스템으로 통일하고」"
+                "text": "웹·API가 5개로 나뉘어 있었습니다."
               }
             ]
           },
@@ -1559,16 +1481,13 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "종합 포털 앱의 RESTful API 서버를 개발했습니다.",
-                "basis": "direct: 종합 포털 앱의 RESTful API 서버"
+                "text": "종합 포털 앱의 RESTful API 서버를 개발했습니다."
               },
               {
-                "text": "5개의 웹·API를 하나의 시스템으로 통일하고 API 경로를 하나로 바꿨으며, DB도 통합했습니다.",
-                "basis": "user-answer 2026-10-21 Q18: Q18 「5개의 웹, API를 하나의 시스템으로 통일하고 API 경로를 하나로 바꿨다. DB 도 통합화」"
+                "text": "5개의 웹·API를 하나의 시스템으로 통일하고 API 경로를 하나로 바꿨으며, DB도 통합했습니다."
               },
               {
-                "text": "배너·식단 등 내부 운영 기능을 통합한 웹 백오피스를 개발했습니다.",
-                "basis": "direct: 배너·식단 등 내부 운영 기능을 통합한 웹 백오피스 개발."
+                "text": "배너·식단 등 내부 운영 기능을 통합한 웹 백오피스를 개발했습니다."
               }
             ]
           },
@@ -1577,8 +1496,7 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "부서 간 데이터 접근 경로를 단일화해 유지보수성을 개선했습니다.",
-                "basis": "direct: 부서 간 데이터 접근 경로를 단일화해 유지보수성 개선."
+                "text": "부서 간 데이터 접근 경로를 단일화해 유지보수성을 개선했습니다."
               }
             ]
           }
@@ -1695,8 +1613,7 @@ window.RESUME = {
                 "api"
               ]
             }
-          },
-          "caption": "이전 웹·API 5개는 본인 답변(Q18). 통합 전 DB 개수는 확인되지 않아 표시하지 않음."
+          }
         },
         "tech": [
           "Java",
@@ -1711,8 +1628,7 @@ window.RESUME = {
           {
             "value": 5,
             "unit": "개 → 1",
-            "label": "웹·API를 하나의 시스템으로 통일",
-            "basis": "user-answer 2026-10-21 Q18: 5개의 웹, API를 하나의 시스템으로 통일하고"
+            "label": "웹·API를 하나의 시스템으로 통일"
           }
         ],
         "no": 6
@@ -1725,8 +1641,7 @@ window.RESUME = {
         "role": "프로젝트 리더",
         "featured": false,
         "oneLine": {
-          "text": "반응형 모바일 웹 기획·개발 리드. 기존 Java 시스템 리팩터링, MySQL 마이그레이션·코드 포팅 및 실시간 운행정보 API 신규 설계.",
-          "basis": "direct: experience[wisestone].projects[3].achievements[0]"
+          "text": "반응형 모바일 웹 기획·개발 리드. 기존 Java 시스템 리팩터링, MySQL 마이그레이션·코드 포팅 및 운행정보 API(공항철도 서버 데이터 15분 단위 갱신) 신규 설계."
         },
         "blocks": [
           {
@@ -1734,8 +1649,7 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "공항철도 모바일 웹이 없어 새로 구축해야 했습니다.",
-                "basis": "user-answer 2026-10-21 Q21: Q21 「모바일 웹이 없어서 새로 만들었다.」"
+                "text": "공항철도 모바일 웹이 없어 새로 구축해야 했습니다."
               }
             ]
           },
@@ -1744,20 +1658,16 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "프로젝트 리더로서 반응형 모바일 웹의 기획·개발을 이끌었습니다.",
-                "basis": "direct: 반응형 모바일 웹 기획·개발 리드."
+                "text": "프로젝트 리더로서 반응형 모바일 웹의 기획·개발을 이끌었습니다."
               },
               {
-                "text": "기존 Java 시스템을 리팩터링하고, MySQL 마이그레이션과 코드 포팅을 진행했습니다.",
-                "basis": "direct: 기존 Java 시스템 리팩터링, MySQL 마이그레이션·코드 포팅"
+                "text": "기존 Java 시스템을 리팩터링하고, MySQL 마이그레이션과 코드 포팅을 진행했습니다."
               },
               {
-                "text": "실시간 운행정보 API를 새로 설계했습니다.",
-                "basis": "direct: 실시간 운행정보 API 신규 설계."
+                "text": "운행정보 API(공항철도 서버 데이터 15분 단위 갱신)를 새로 설계했습니다."
               },
               {
-                "text": "운행정보는 공항철도가 제공하는 서버 데이터를 받아 처리했고, 15분 단위로 갱신했습니다.",
-                "basis": "user-answer 2026-10-21 Q22: Q22 「공항철도에서 제공하는 서버 데이터를 받아서 처리 했다. 갱신 주기는 15분 단위로 실행했다.」"
+                "text": "운행정보는 공항철도가 제공하는 서버 데이터를 받아 처리했고, 15분 단위로 갱신했습니다."
               }
             ]
           }
@@ -1815,7 +1725,7 @@ window.RESUME = {
             },
             {
               "id": "rt",
-              "t": "실시간 운행정보 API",
+              "t": "운행정보 API",
               "c": 2,
               "r": 1,
               "s": 1,
@@ -1858,8 +1768,7 @@ window.RESUME = {
           "hl": [
             "rt",
             "web"
-          ],
-          "caption": "데이터 출처·갱신 주기는 본인 답변(Q22)."
+          ]
         },
         "tech": [
           "Java",
@@ -1874,8 +1783,7 @@ window.RESUME = {
           {
             "value": 15,
             "unit": "분",
-            "label": "운행정보 갱신 주기",
-            "basis": "user-answer 2026-10-21 Q22: 갱신 주기는 15분 단위로 실행했다."
+            "label": "운행정보 갱신 주기"
           }
         ],
         "no": 7
@@ -1888,8 +1796,7 @@ window.RESUME = {
         "role": "파이프라인 파트장",
         "featured": true,
         "oneLine": {
-          "text": "영상 제작 파이프라인을 표준화하고 프로젝트·Task·Time Recorder·버전·리뷰 관리 기능을 통합한 웹 시스템 개발.",
-          "basis": "direct: experience[locus].projects[1].achievements[0]"
+          "text": "영상 제작 파이프라인을 표준화하고 프로젝트·Task·Time Recorder·버전·리뷰 관리 기능을 통합한 웹 시스템 개발."
         },
         "blocks": [
           {
@@ -1897,12 +1804,10 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "영상 제작 관리를 해외 상용툴에 의존하고 있어 매년 비용이 발생했습니다.",
-                "basis": "inferred-from: 자체 시스템으로 해외 상용툴을 대체하여 연간 약 8천만 원 비용 절감."
+                "text": "영상 제작 관리를 해외 상용툴에 의존하고 있어 매년 비용이 발생했습니다."
               },
               {
-                "text": "제작 파이프라인과 프로젝트·작업·리뷰 관리를 하나로 묶어 표준화할 필요가 있었습니다.",
-                "basis": "inferred-from: 영상 제작 파이프라인을 표준화하고 프로젝트·Task·Time Recorder·버전·리뷰 관리 기능을 통합한 웹 시스템 개발."
+                "text": "제작 파이프라인과 프로젝트·작업·리뷰 관리를 하나로 묶어 표준화할 필요가 있었습니다."
               }
             ]
           },
@@ -1911,20 +1816,16 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "프로젝트·Task·Time Recorder·버전·리뷰 관리 기능을 하나의 웹 시스템으로 통합했습니다.",
-                "basis": "direct: 프로젝트·Task·Time Recorder·버전·리뷰 관리 기능을 통합한 웹 시스템 개발."
+                "text": "프로젝트·Task·Time Recorder·버전·리뷰 관리 기능을 하나의 웹 시스템으로 통합했습니다."
               },
               {
-                "text": "작업별 진행률과 투입 인력을 추적할 수 있도록 구현했습니다.",
-                "basis": "direct: 작업별 진행률과 투입 인력을 추적할 수 있도록 구현하고"
+                "text": "작업별 진행률과 투입 인력을 추적할 수 있도록 구현했습니다."
               },
               {
-                "text": "FFMPEG·ImageMagick 기반 썸네일·GIF 생성으로 영상 리뷰 업무를 개선했습니다.",
-                "basis": "direct: FFMPEG·ImageMagick 기반 썸네일·GIF 생성으로 영상 리뷰 업무 개선."
+                "text": "FFMPEG·ImageMagick 기반 썸네일·GIF 생성으로 영상 리뷰 업무를 개선했습니다."
               },
               {
-                "text": "2차 리뉴얼과 DB 마이그레이션을 주도해 데이터를 안정적으로 이관했습니다.",
-                "basis": "direct: 2차 리뉴얼 및 DB 마이그레이션을 주도해 데이터를 안정적으로 이관."
+                "text": "2차 리뉴얼과 DB 마이그레이션을 주도해 데이터를 안정적으로 이관했습니다."
               }
             ]
           },
@@ -1933,12 +1834,10 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "자체 시스템으로 해외 상용툴을 대체해 연간 약 8천만 원의 비용을 절감했습니다.",
-                "basis": "direct: 자체 시스템으로 해외 상용툴을 대체하여 연간 약 8천만 원 비용 절감."
+                "text": "자체 시스템으로 해외 상용툴을 대체해 연간 약 8천만 원의 비용을 절감했습니다."
               },
               {
-                "text": "<레드슈즈>, <퇴마록> 등 애니메이션 제작 파이프라인 개발을 담당하며 PMS를 자체 개발했습니다.",
-                "basis": "direct: <레드슈즈>, <퇴마록> 등의 애니메이션 제작 파이프라인 개발을 담당하며 PMS(프로젝트 관리 시스템)를 자체 개발"
+                "text": "<레드슈즈>, <퇴마록> 등 애니메이션 제작 파이프라인 개발을 담당하며 PMS를 자체 개발했습니다."
               }
             ]
           }
@@ -2049,8 +1948,7 @@ window.RESUME = {
           ],
           "hl": [
             "hub"
-          ],
-          "caption": "노드 아래 기술은 프로젝트 기술 목록에서 옮긴 것(PHP·CodeIgniter·Spring Boot가 모두 기재됨, 버전별 구분은 원문에 없음)."
+          ]
         },
         "tech": [
           "PHP",
@@ -2070,8 +1968,7 @@ window.RESUME = {
             "value": 8000,
             "prefix": "약 ",
             "unit": "만 원 / 년",
-            "label": "해외 상용툴 대체로 절감한 비용",
-            "basis": "direct: 해외 상용툴 대체로 연간 약 8천만 원 비용 절감 (experience[locus].keyMetrics[0])"
+            "label": "해외 상용툴 대체로 절감한 비용"
           }
         ],
         "no": 8
@@ -2084,8 +1981,7 @@ window.RESUME = {
         "role": "프로젝트 리더",
         "featured": false,
         "oneLine": {
-          "text": "영상·CF·게임·애니메이션 등 프로젝트 유형별 비용·인건비 산정 로직을 설계한 Budget Management System 구축.",
-          "basis": "direct: experience[locus].projects[2].achievements[0]"
+          "text": "영상·CF·게임·애니메이션 등 프로젝트 유형별 비용·인건비 산정 로직을 설계한 Budget Management System 구축."
         },
         "blocks": [
           {
@@ -2093,8 +1989,7 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "영상·CF·게임·애니메이션처럼 성격이 다른 프로젝트의 비용·인건비를 산정할 공통 로직이 필요했습니다.",
-                "basis": "inferred-from: 영상·CF·게임·애니메이션 등 프로젝트 유형별 비용·인건비 산정 로직을 설계한 Budget Management System 구축."
+                "text": "영상·CF·게임·애니메이션처럼 성격이 다른 프로젝트의 비용·인건비를 산정할 공통 로직이 필요했습니다."
               }
             ]
           },
@@ -2103,16 +1998,13 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "프로젝트 유형별 비용·인건비 산정 로직을 설계해 Budget Management System을 구축했습니다.",
-                "basis": "direct: 프로젝트 유형별 비용·인건비 산정 로직을 설계한 Budget Management System 구축."
+                "text": "프로젝트 유형별 비용·인건비 산정 로직을 설계해 Budget Management System을 구축했습니다."
               },
               {
-                "text": "Google Spreadsheet API로 운영 데이터를 실시간 수집·자동 집계하고, Grafana·Power BI와 연동한 매출·비용 대시보드를 개발했습니다.",
-                "basis": "direct: Google Spreadsheet API로 운영 데이터를 실시간 수집·자동 집계하고 Grafana·Power BI와 연동해 매출·비용 대시보드 개발."
+                "text": "Google Spreadsheet API로 운영 데이터를 실시간 수집·자동 집계하고, Grafana·Power BI와 연동한 매출·비용 대시보드를 개발했습니다."
               },
               {
-                "text": "성과·역량 지표 기반 인사평가 시스템을 설계·구축했습니다.",
-                "basis": "direct: 성과·역량 지표 기반 인사평가 시스템을 설계·구축"
+                "text": "성과·역량 지표 기반 인사평가 시스템을 설계·구축했습니다."
               }
             ]
           },
@@ -2121,12 +2013,10 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "인사평가 시스템은 구축 후 3년간 사내에서 운영되었습니다.",
-                "basis": "direct: 인사평가 시스템 구축 후 3년간 사내 운영"
+                "text": "인사평가 시스템은 구축 후 3년간 사내에서 운영되었습니다."
               },
               {
-                "text": "평가 결과와 프로젝트 실적을 연동해 인력 운용 지표를 제공했습니다.",
-                "basis": "direct: 평가 결과와 프로젝트 실적을 연동해 인력 운용 지표 제공."
+                "text": "평가 결과와 프로젝트 실적을 연동해 인력 운용 지표를 제공했습니다."
               }
             ]
           }
@@ -2244,8 +2134,7 @@ window.RESUME = {
           {
             "value": 3,
             "unit": "년",
-            "label": "인사평가 시스템 구축 후 사내 운영 기간",
-            "basis": "direct: 인사평가 시스템 구축 후 3년간 사내 운영 (experience[locus].keyMetrics[1], user-edit 2026-10-20)"
+            "label": "인사평가 시스템 구축 후 사내 운영 기간"
           }
         ],
         "no": 9
@@ -2255,11 +2144,10 @@ window.RESUME = {
         "company": "locus",
         "projectNo": 3,
         "title": "영상 및 이미지 리뷰 시스템 고도화",
-        "role": "프로토타입 개발 참여",
+        "role": "프로토타입 설계·개발(단독)",
         "featured": false,
         "oneLine": {
-          "text": "WebGL·Maya API 기반 3D 모델·영상 실시간 리뷰 도구의 프로토타입 개발.",
-          "basis": "direct: experience[locus].projects[3].achievements[0]"
+          "text": "WebGL·Maya API 기반 3D 모델·영상 실시간 리뷰 도구의 프로토타입 개발."
         },
         "blocks": [
           {
@@ -2267,8 +2155,7 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "아티스트와 리더가 3D 모델과 영상을 함께 보며 피드백을 주고받을 도구가 필요했습니다.",
-                "basis": "inferred-from: 아티스트·리더 간 피드백 지원."
+                "text": "아티스트와 리더가 3D 모델과 영상을 함께 보며 피드백을 주고받을 도구가 필요했습니다."
               }
             ]
           },
@@ -2277,12 +2164,13 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "WebGL·Maya API 기반 3D 모델·영상 실시간 리뷰 도구의 프로토타입을 개발했습니다.",
-                "basis": "direct: WebGL·Maya API 기반 3D 모델·영상 실시간 리뷰 도구의 프로토타입 개발."
+                "text": "WebGL·Maya API 기반 3D 모델·영상 실시간 리뷰 도구를 구현했습니다."
               },
               {
-                "text": "웹에서 프레임 단위 검토, 버전 비교, 코멘트와 자동 스냅샷 기능을 구현했습니다.",
-                "basis": "direct: 웹에서 프레임 단위 검토, 버전 비교, 코멘트와 자동 스냅샷 기능을 구현해"
+                "text": "리뷰 시스템 프로토타입을 단독으로 설계·개발했습니다."
+              },
+              {
+                "text": "웹에서 프레임 단위 검토, 버전 비교, 코멘트와 자동 스냅샷 기능을 구현했습니다."
               }
             ]
           },
@@ -2291,12 +2179,10 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "아티스트·리더 간 피드백을 지원했습니다.",
-                "basis": "direct: 아티스트·리더 간 피드백 지원."
+                "text": "아티스트·리더 간 피드백을 지원했습니다."
               },
               {
-                "text": "프로토타입은 실제 운영까지 이어져 LOCMAN에 반영되었고, 영상·이미지 리뷰에 사용되었습니다.",
-                "basis": "user-answer 2026-10-21 Q26: Q26 「실제 운영화까지 갔고, LOCMAN에 반영해서 영상, 이미지 리뷰 할 때 사용했다.」"
+                "text": "프로토타입은 실제 운영까지 이어져 LOCMAN에 반영되었고, 영상·이미지 리뷰에 사용되었습니다."
               }
             ]
           }
@@ -2400,8 +2286,7 @@ window.RESUME = {
           "hl": [
             "fb",
             "locman"
-          ],
-          "caption": "LOCMAN 반영·운영 사용은 본인 답변(Q26)."
+          ]
         },
         "tech": [
           "Three.js",
@@ -2420,8 +2305,7 @@ window.RESUME = {
         "role": "Engine팀 팀장",
         "featured": false,
         "oneLine": {
-          "text": "보험 진단 로직·DB 및 B2B/B2C SaaS 아키텍처 설계 전반 담당.",
-          "basis": "direct: experience[ignet].projects[1].achievements[0]"
+          "text": "보험 진단 로직·DB 및 B2B/B2C SaaS 아키텍처 설계 전반 담당."
         },
         "blocks": [
           {
@@ -2429,24 +2313,19 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "보험 진단 로직·DB와 B2B/B2C SaaS 아키텍처 설계 전반을 담당했습니다.",
-                "basis": "direct: 보험 진단 로직·DB 및 B2B/B2C SaaS 아키텍처 설계 전반 담당."
+                "text": "보험 진단 로직·DB와 B2B/B2C SaaS 아키텍처 설계 전반을 담당했습니다."
               },
               {
-                "text": "B2B와 B2C는 서로 다른 진단 엔진을 사용했고, B2B 엔진은 GCP에서 별도로 운영했습니다.",
-                "basis": "user-answer 2026-10-21 Q27: Q27 「다른 진단 엔진을 썼다. B2B엔진은 GCP에 별도로 운영했다.」"
+                "text": "B2B와 B2C는 서로 다른 진단 엔진을 사용했고, B2B 엔진은 GCP에서 별도로 운영했습니다."
               },
               {
-                "text": "GCP 기반 VPC와 CI/CD, 클라우드 서버 운영 환경을 구축했습니다.",
-                "basis": "direct: GCP 기반 VPC와 CI/CD, 클라우드 서버 운영 환경 구축."
+                "text": "GCP 기반 VPC와 CI/CD, 클라우드 서버 운영 환경을 구축했습니다."
               },
               {
-                "text": "B2C는 Git CI/CD로 자동 배포하고, B2B는 master 브랜치 push 시 Git 상태를 확인해 GCP에 자동 반영하는 배치 스크립트를 만들었습니다.",
-                "basis": "user-answer 2026-10-21 Q28: Q28 「B2C는 git CI/CD 로 자동 배포 했고」 / Q28 「B2B의 경우 GCP 에 자동으로 올리는 스크립트를 만들어서 git master push 되었을때 git 상태 확인해서 (배치) 스크립트 실행해서 올릴 수 있게 했다.」"
+                "text": "B2C는 Git CI/CD로 자동 배포하고, B2B는 master 브랜치 push 시 Git 상태를 확인해 GCP에 자동 반영하는 배치 스크립트를 만들었습니다."
               },
               {
-                "text": "보닥 앱을 개발·운영하며 보험 진단 로직과 데이터 모델을 설계하고 서비스 구조를 개선했습니다.",
-                "basis": "direct: ‘보닥’ 앱을 개발·운영하면서 보험 진단 로직과 데이터 모델을 설계하고 서비스 구조를 개선했습니다."
+                "text": "보닥 앱을 개발·운영하며 보험 진단 로직과 데이터 모델을 설계하고 서비스 구조를 개선했습니다."
               }
             ]
           },
@@ -2455,12 +2334,10 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "기획·마케팅 부서와 협업해 진단 로직을 자동화하고 로드밸런싱을 최적화했습니다.",
-                "basis": "direct: 기획·마케팅 부서와 협업해 진단 로직 자동화 및 로드밸런싱 최적화."
+                "text": "기획·마케팅 부서와 협업해 진단 로직을 자동화하고 로드밸런싱을 최적화했습니다."
               },
               {
-                "text": "서비스 규모: 앱 100만 다운로드, 일 진단 100건 이상.",
-                "basis": "user-answer 2026-10-21 Q30: Q30 「100만 마운로드, 일 진단 건수 100건 이상」"
+                "text": "서비스 규모: 앱 100만 다운로드, 일 진단 100건 이상."
               }
             ]
           }
@@ -2592,8 +2469,7 @@ window.RESUME = {
             "eb",
             "ec",
             "lb"
-          ],
-          "caption": "엔진 분리·배포 방식은 본인 답변(Q27·Q28). 로드밸런싱·DB의 엔진별 구분은 원문에 없어 두 엔진에 공통으로 표시. 엔진 기술(Node.js·Express·TypeScript)은 프로젝트 기술 목록 기준."
+          ]
         },
         "tech": [
           "Node.js",
@@ -2609,15 +2485,13 @@ window.RESUME = {
           {
             "value": 100,
             "unit": "만",
-            "label": "보닥 앱 다운로드",
-            "basis": "user-answer 2026-10-21 Q30: 100만 마운로드"
+            "label": "보닥 앱 다운로드"
           },
           {
             "value": 100,
             "prefix": "일 ",
             "unit": "건 이상",
-            "label": "보험 진단 건수",
-            "basis": "user-answer 2026-10-21 Q30: 일 진단 건수 100건 이상"
+            "label": "보험 진단 건수"
           }
         ],
         "no": 11
@@ -2630,8 +2504,7 @@ window.RESUME = {
         "role": "백엔드 팀장",
         "featured": true,
         "oneLine": {
-          "text": "Nest.js 기반 마이데이터 API 중계 서버 구축. Express에서 Nest.js로 전환해 모듈 단위 개발 체계 확립.",
-          "basis": "direct: experience[ignet].projects[2].achievements[0]"
+          "text": "Nest.js 기반 마이데이터 API 중계 서버 구축. Express에서 Nest.js로 전환해 모듈 단위 개발 체계 확립."
         },
         "blocks": [
           {
@@ -2639,12 +2512,10 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "Express 기반 서버를 모듈 단위로 개발할 수 있는 구조로 바꿀 필요가 있었습니다.",
-                "basis": "inferred-from: Express에서 Nest.js로 전환해 모듈 단위 개발 체계 확립."
+                "text": "Express 기반 서버를 모듈 단위로 개발할 수 있는 구조로 바꿀 필요가 있었습니다."
               },
               {
-                "text": "MongoDB와 MySQL에 데이터가 이중 구조로 나뉘어 있었고, 중복·비효율적인 데이터 구조가 있었습니다.",
-                "basis": "inferred-from: MongoDB·MySQL 이중 데이터 구조를 통합 설계하고 / 중복·비효율적인 데이터 구조를 개선해"
+                "text": "MongoDB와 MySQL에 데이터가 이중 구조로 나뉘어 있었고, 중복·비효율적인 데이터 구조가 있었습니다."
               }
             ]
           },
@@ -2653,16 +2524,13 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "Nest.js 기반 마이데이터 API 중계 서버를 구축하고, Express에서 Nest.js로 전환해 모듈 단위 개발 체계를 확립했습니다.",
-                "basis": "direct: Nest.js 기반 마이데이터 API 중계 서버 구축. Express에서 Nest.js로 전환해 모듈 단위 개발 체계 확립."
+                "text": "Nest.js 기반 마이데이터 API 중계 서버를 구축하고, Express에서 Nest.js로 전환해 모듈 단위 개발 체계를 확립했습니다."
               },
               {
-                "text": "MongoDB·MySQL 이중 데이터 구조를 통합 설계하고 전체 테이블 스키마를 직접 재정의했습니다.",
-                "basis": "direct: MongoDB·MySQL 이중 데이터 구조를 통합 설계하고 전체 테이블 스키마를 직접 재정의하여"
+                "text": "MongoDB·MySQL 이중 데이터 구조를 통합 설계하고 전체 테이블 스키마를 직접 재정의했습니다."
               },
               {
-                "text": "외주 Laravel 앱 백엔드 구축을 총괄하고 협업 프로세스를 정비했습니다.",
-                "basis": "direct: 외주 Laravel 앱 백엔드 구축을 총괄하고 협업 프로세스 정비."
+                "text": "외주 Laravel 앱 백엔드 구축을 총괄하고 협업 프로세스를 정비했습니다."
               }
             ]
           },
@@ -2671,12 +2539,10 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "데이터 일관성을 확보했습니다.",
-                "basis": "direct: 데이터 일관성 확보."
+                "text": "데이터 일관성을 확보했습니다."
               },
               {
-                "text": "API 응답속도와 유지보수성이 향상되었습니다.",
-                "basis": "direct: API 응답속도와 유지보수성 향상."
+                "text": "API 응답속도와 유지보수성이 향상되었습니다."
               }
             ]
           }
@@ -2798,8 +2664,7 @@ window.RESUME = {
           "hl": [
             "schema",
             "nest"
-          ],
-          "caption": "Docker·Nginx·Naver Cloud는 프로젝트 기술 목록 기준의 실행 환경 표기."
+          ]
         },
         "tech": [
           "Nest.js",
@@ -2822,8 +2687,7 @@ window.RESUME = {
         "role": "백엔드 팀장 · 개발실 총괄",
         "featured": false,
         "oneLine": {
-          "text": "VPC·로드밸런서·오토스케일링·DNS 등 클라우드 인프라를 설계하고 초기 운영 환경 개선.",
-          "basis": "direct: experience[ignet].projects[3].achievements[0]"
+          "text": "VPC·로드밸런서·오토스케일링·DNS 등 클라우드 인프라를 설계하고 초기 운영 환경 개선."
         },
         "blocks": [
           {
@@ -2831,12 +2695,10 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "초기에는 CI/CD 자동화가 구성되어 있지 않았고, 네이버 클라우드 서버 접속 장애가 자주 발생했습니다.",
-                "basis": "user-answer 2026-10-21 Q31: Q31 「CI/CD 자동화 구성이 안되어 있었고, 네이버 클라우드 서버 접속 장애가 자주 일어났다.」"
+                "text": "초기에는 CI/CD 자동화가 구성되어 있지 않았고, 네이버 클라우드 서버 접속 장애가 자주 발생했습니다."
               },
               {
-                "text": "저장소를 GitHub로 이관하면서 배포 환경을 다시 만들어야 했습니다.",
-                "basis": "inferred-from: GitHub 이관에 맞춰 배포 환경 재구축."
+                "text": "저장소를 GitHub로 이관하면서 배포 환경을 다시 만들어야 했습니다."
               }
             ]
           },
@@ -2845,32 +2707,25 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "네이버 클라우드 초기 구축(세팅)을 직접 맡았습니다.",
-                "basis": "user-answer 2026-10-21 Q33: Q33 「네이버 클라우드 세팅을 내가 했다. (초기 구축)」"
+                "text": "네이버 클라우드 초기 구축(세팅)을 직접 맡았습니다."
               },
               {
-                "text": "VPN 클라이언트 문제를 확인·처리해 서버 접속 장애에 대응했습니다.",
-                "basis": "user-answer 2026-10-21 Q31: Q31 「VPN 클라이언트 문제를 확인해서 처리했고」"
+                "text": "VPN 클라이언트 문제를 확인·처리해 서버 접속 장애에 대응했습니다."
               },
               {
-                "text": "VPC·로드밸런서·오토스케일링·DNS 등 클라우드 인프라를 설계했습니다.",
-                "basis": "direct: VPC·로드밸런서·오토스케일링·DNS 등 클라우드 인프라를 설계하고"
+                "text": "VPC·로드밸런서·오토스케일링·DNS 등 클라우드 인프라를 설계했습니다."
               },
               {
-                "text": "GitLab Runner·Docker 기반 자동 배포를 구축한 뒤, GitHub 이관에 맞춰 배포 환경을 재구축했습니다.",
-                "basis": "direct: GitLab Runner·Docker 기반 자동 배포 구축 후 GitHub 이관에 맞춰 배포 환경 재구축."
+                "text": "GitLab Runner·Docker 기반 자동 배포를 구축한 뒤, GitHub 이관에 맞춰 배포 환경을 재구축했습니다."
               },
               {
-                "text": "CI/CD 초기 구성을 마친 뒤 DevOps 담당에게 인계했습니다.",
-                "basis": "user-answer 2026-10-21 Q31: Q31 「차후 CI/CD 초기 구성하고 DEVOPS 에게 넘김」"
+                "text": "CI/CD 초기 구성을 마친 뒤 DevOps 담당에게 인계했습니다."
               },
               {
-                "text": "Next.js 관리자 시스템을 개발해 광고 배너 등록과 운영 지표를 제공하고, Java/Spring Boot 백엔드 개발을 지원했습니다.",
-                "basis": "direct: Next.js 관리자 시스템을 개발해 광고 배너 등록·운영 지표 제공. Java/Spring Boot 백엔드 개발 지원."
+                "text": "Next.js 관리자 시스템을 개발해 광고 배너 등록과 운영 지표를 제공하고, Java/Spring Boot 백엔드 개발을 지원했습니다."
               },
               {
-                "text": "회사 단위 인프라 작업: GCP·NCP VM 인스턴스 구성, 방화벽 규칙(GCP VPC 방화벽, NCP ACG), NAT 게이트웨이(GCP Cloud NAT, NCP NAT Gateway), BigQuery 구성.",
-                "basis": "user-2026-10-20: VM 인스턴스 생성 및 구성(GCP Compute Engine, NCP Server). / 인바운드/아웃바운드 방화벽 규칙 설정(GCP VPC 방화벽, NCP ACG). / NAT 게이트웨이 구성(GCP Cloud NAT, NCP NAT Gateway). / BigQuery 구성 및 활용."
+                "text": "회사 단위 인프라 작업: GCP·NCP VM 인스턴스 구성, 방화벽 규칙(GCP VPC 방화벽, NCP ACG), NAT 게이트웨이(GCP Cloud NAT, NCP NAT Gateway), BigQuery 구성."
               }
             ]
           },
@@ -2879,8 +2734,7 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "초기 운영 환경을 개선하고, 앱·웹 운영과 개발·배포 프로세스를 자동화했습니다.",
-                "basis": "direct: 초기 운영 환경 개선. / 앱·웹 운영과 개발·배포 프로세스 자동화."
+                "text": "초기 운영 환경을 개선하고, 앱·웹 운영과 개발·배포 프로세스를 자동화했습니다."
               }
             ]
           }
@@ -2914,8 +2768,7 @@ window.RESUME = {
               "GitLab Runner · Docker",
               "GitHub 이관 후 재구축"
             ]
-          },
-          "caption": "VPC·로드밸런서·오토스케일링·DNS는 프로젝트 원문. Naver Cloud 초기 구축·CI/CD 초기 구성은 본인 답변(Q31·Q33), VM·방화벽·NAT 세부는 아이지넷 회사 단위 사용자 추가 진술."
+          }
         },
         "tech": [
           "Next.js",
@@ -2940,8 +2793,7 @@ window.RESUME = {
         "role": "Engine팀 팀장",
         "featured": false,
         "oneLine": {
-          "text": "건강·유전자 정보 협력기관 관리 시스템 구축 및 RSA 암호화 기반 보험 진단 서버 개발 참여.",
-          "basis": "direct: experience[ignet].projects[4].achievements[0]"
+          "text": "건강·유전자 정보 협력기관 관리 시스템 구축 및 RSA 암호화 기반 보험 진단 서버 개발 참여."
         },
         "blocks": [
           {
@@ -2949,12 +2801,10 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "마이데이터 실증 사업이었습니다.",
-                "basis": "user-answer 2026-10-21 Q34: Q34 「마이데이터 실증 사업이었음.」"
+                "text": "마이데이터 실증 사업이었습니다."
               },
               {
-                "text": "고객사 요청으로, SaaS API로 제공하는 보험 진단 정보에 암호화가 필요했습니다.",
-                "basis": "user-answer 2026-10-21 Q35: Q35 「SASS API 로 보험 진단 정보를 주는 것에 암호화 적용했다. (이건 고객사 요청)」"
+                "text": "고객사 요청으로, SaaS API로 제공하는 보험 진단 정보에 암호화가 필요했습니다."
               }
             ]
           },
@@ -2963,20 +2813,16 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "건강·유전자 정보 협력기관 관리 시스템을 구축했습니다.",
-                "basis": "direct: 건강·유전자 정보 협력기관 관리 시스템 구축"
+                "text": "건강·유전자 정보 협력기관 관리 시스템을 구축했습니다."
               },
               {
-                "text": "RSA 암호화 기반 보험 진단 서버 개발에 참여했습니다.",
-                "basis": "direct: RSA 암호화 기반 보험 진단 서버 개발 참여."
+                "text": "RSA 암호화 기반 보험 진단 서버 개발에 참여했습니다."
               },
               {
-                "text": "SaaS API로 보험 진단 정보를 제공하는 구간에 RSA 암호화를 적용했습니다.",
-                "basis": "user-answer 2026-10-21 Q35: Q35 「SASS API 로 보험 진단 정보를 주는 것에 암호화 적용했다.」 / 원문 「RSA 암호화 기반 보험 진단 서버」"
+                "text": "SaaS API로 보험 진단 정보를 제공하는 구간에 RSA 암호화를 적용했습니다."
               },
               {
-                "text": "사업 설계 문서를 작성하고 감리에 대응했습니다.",
-                "basis": "direct: 사업 설계 문서 작성 및 감리 대응 경험."
+                "text": "사업 설계 문서를 작성하고 감리에 대응했습니다."
               }
             ]
           }
@@ -3085,8 +2931,7 @@ window.RESUME = {
           ],
           "hl": [
             "rsa"
-          ],
-          "caption": "사업 성격·암호화 적용 구간은 본인 답변(Q34·Q35)."
+          ]
         },
         "tech": [
           "Java",
@@ -3108,8 +2953,7 @@ window.RESUME = {
         "role": "설계 및 개발 담당",
         "featured": true,
         "oneLine": {
-          "text": "Next.js와 Nest.js를 통합해 프론트엔드와 백엔드 로직을 연결하는 웹 통합 아키텍처 구축.",
-          "basis": "direct: experience[studio-lennon].projects[1].achievements[0]"
+          "text": "Next.js와 Nest.js를 통합해 프론트엔드와 백엔드 로직을 연결하는 웹 통합 아키텍처 구축."
         },
         "blocks": [
           {
@@ -3117,8 +2961,7 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "인력·작업시간·프로젝트 상태·비용 데이터가 ShotGrid, Google Sheets, 타사 관리 도구에 나뉘어 있었습니다.",
-                "basis": "inferred-from: ShotGrid API·Google Sheets·타사 관리 도구의 데이터를 통합하는 데이터 허브 설계. / 인력, 작업시간, 프로젝트 상태, 비용 데이터를 한 시스템에서 관리하도록 구현하여"
+                "text": "인력·작업시간·프로젝트 상태·비용 데이터가 ShotGrid, Google Sheets, 타사 관리 도구에 나뉘어 있었습니다."
               }
             ]
           },
@@ -3127,24 +2970,19 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "Next.js와 Nest.js를 통합해 프론트엔드와 백엔드 로직을 연결하는 웹 통합 아키텍처를 구축했습니다.",
-                "basis": "direct: Next.js와 Nest.js를 통합해 프론트엔드와 백엔드 로직을 연결하는 웹 통합 아키텍처 구축."
+                "text": "Next.js와 Nest.js를 통합해 프론트엔드와 백엔드 로직을 연결하는 웹 통합 아키텍처를 구축했습니다."
               },
               {
-                "text": "ShotGrid API·Google Sheets·타사 관리 도구의 데이터를 통합하는 데이터 허브를 설계하고, Python API·RPA·크롤링 모듈로 사내 시스템 데이터를 수집·가공했습니다.",
-                "basis": "direct: ShotGrid API·Google Sheets·타사 관리 도구의 데이터를 통합하는 데이터 허브 설계. / Python API·RPA·크롤링 모듈로 사내 시스템 데이터를 수집·가공."
+                "text": "ShotGrid API·Google Sheets·타사 관리 도구의 데이터를 통합하는 데이터 허브를 설계하고, Python API·RPA·크롤링 모듈로 사내 시스템 데이터를 수집·가공했습니다."
               },
               {
-                "text": "테이블 설계부터 시스템 전체 구조까지 직접 설계·구축했습니다.",
-                "basis": "user-2026-10-20: 테이블 설계부터 시스템 전체 구조까지 직접 설계·구축."
+                "text": "테이블 설계부터 시스템 전체 구조까지 직접 설계·구축했습니다."
               },
               {
-                "text": "Nest.js 모듈·컨트롤러·서비스 계층 구조와 FastAPI·Pydantic v2·SQLAlchemy 2.x async 기반으로 REST API를 직접 구축했습니다.",
-                "basis": "user-2026-10-20: FastAPI와 Nest.js로 REST API를 직접 구축 — Nest.js 모듈·컨트롤러·서비스 계층 구조, FastAPI·Pydantic v2·SQLAlchemy 2.x async 기반 요청 스키마 검증과 비동기 DB 접근."
+                "text": "Nest.js 모듈·컨트롤러·서비스 계층 구조와 FastAPI·Pydantic v2·SQLAlchemy 2.x async 기반으로 REST API를 직접 구축했습니다."
               },
               {
-                "text": "MySQL 테이블 스키마를 설계하고 Docker 기반 실행 환경을 구성했습니다.",
-                "basis": "user-2026-10-20: MySQL 테이블 스키마 설계 및 Docker 기반 실행 환경 구성."
+                "text": "MySQL 테이블 스키마를 설계하고 Docker 기반 실행 환경을 구성했습니다."
               }
             ]
           },
@@ -3153,8 +2991,7 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "인력·작업시간·프로젝트 상태·비용 데이터를 한 시스템에서 관리하게 되어, VFX 제작 파이프라인 운영과 현황 파악을 지원했습니다.",
-                "basis": "direct: 인력, 작업시간, 프로젝트 상태, 비용 데이터를 한 시스템에서 관리하도록 구현하여 VFX 제작 파이프라인 운영과 현황 파악 지원."
+                "text": "인력·작업시간·프로젝트 상태·비용 데이터를 한 시스템에서 관리하게 되어, VFX 제작 파이프라인 운영과 현황 파악을 지원했습니다."
               }
             ]
           }
@@ -3313,8 +3150,7 @@ window.RESUME = {
         "role": "연구기관 연구책임자",
         "featured": false,
         "oneLine": {
-          "text": "KOCCA 대중소 연구과제에 연구기관으로 참여해 연구개발을 총괄.",
-          "basis": "direct: experience[studio-lennon].projects[2].achievements[0]"
+          "text": "KOCCA 대중소 연구과제에 연구기관으로 참여해 연구개발을 총괄."
         },
         "blocks": [
           {
@@ -3322,12 +3158,10 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "KOCCA 대중소 연구과제에 연구기관 연구책임자로 참여해 연구개발을 총괄했습니다.",
-                "basis": "direct: KOCCA 대중소 연구과제에 연구기관으로 참여해 연구개발을 총괄."
+                "text": "KOCCA 대중소 연구과제에 연구기관 연구책임자로 참여해 연구개발을 총괄했습니다."
               },
               {
-                "text": "후반 영상 리라이팅과 자동 컷 분할·편집 기능을 연구·개발했습니다.",
-                "basis": "direct: 후반 영상 리라이팅과 자동 컷 분할·편집 기능을 연구·개발."
+                "text": "후반 영상 리라이팅과 자동 컷 분할·편집 기능을 연구·개발했습니다."
               }
             ]
           }
@@ -3392,8 +3226,7 @@ window.RESUME = {
               "s": 1
             }
           ],
-          "hl": [],
-          "caption": "원문에 과제·성과·기술 서술이 없어 연구 주제만 표시."
+          "hl": []
         },
         "tech": [],
         "no": 16
@@ -3406,8 +3239,7 @@ window.RESUME = {
         "role": "R&D실장 · 시스템 설계 및 구현",
         "featured": false,
         "oneLine": {
-          "text": "프로젝트 비용 사용률·진행률·burn rate를 분석해 위험 프로젝트를 탐지하고, 인건비·외주비·인력 배정의 이상값을 감지하는 AI 에이전트 설계·구현.",
-          "basis": "direct: experience[studio-lennon].projects[3].achievements[0]"
+          "text": "프로젝트 비용 사용률·진행률·burn rate를 분석해 위험 프로젝트를 탐지하고, 인건비·외주비·인력 배정의 이상값을 감지하는 AI 에이전트 설계·구현."
         },
         "blocks": [
           {
@@ -3415,8 +3247,7 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "월간 운영 리포트가 없었고, 분기마다 스프레드시트로 보고 문서를 만드는 수작업이라 시간이 걸렸습니다.",
-                "basis": "user-answer 2026-10-21 Q41: Q41 「월간 운영 리포트가 없었고, 스프레드 시트로 보고 문서 운영을 분기 마다 했음. 수작업이라 시간이 걸렸음」"
+                "text": "월간 운영 리포트가 없었고, 분기마다 스프레드시트로 보고 문서를 만드는 수작업이라 시간이 걸렸습니다."
               }
             ]
           },
@@ -3425,24 +3256,19 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "프로젝트 비용 사용률·진행률·burn rate를 분석해 위험 프로젝트를 탐지하는 AI 에이전트를 설계·구현했습니다.",
-                "basis": "direct: 프로젝트 비용 사용률·진행률·burn rate를 분석해 위험 프로젝트를 탐지하고"
+                "text": "프로젝트 비용 사용률·진행률·burn rate를 분석해 위험 프로젝트를 탐지하는 AI 에이전트를 설계·구현했습니다."
               },
               {
-                "text": "인건비·외주비·인력 배정의 이상값을 감지하도록 했습니다.",
-                "basis": "direct: 인건비·외주비·인력 배정의 이상값을 감지하는 AI 에이전트 설계·구현."
+                "text": "인건비·외주비·인력 배정의 이상값을 감지하도록 했습니다."
               },
               {
-                "text": "위험·이상값 판단은 규칙 기반으로 수치를 산출하고, 산출된 정보를 바탕으로 LLM이 리포트 문장을 작성하는 구조로 만들었습니다.",
-                "basis": "user-answer 2026-10-21 Q42: Q42 「규칙 기반으로 만들었다. 규칙기반의 이상값, 위험 수치 가 산출 되면 그 정보를 가지고 LLM이 문장을 만드는 구조로 했다.」"
+                "text": "위험·이상값 판단은 규칙 기반으로 수치를 산출하고, 산출된 정보를 바탕으로 LLM이 리포트 문장을 작성하는 구조로 만들었습니다."
               },
               {
-                "text": "Claude Code CLI, Ollama를 실행 엔진으로 사용해 로컬·서버 환경을 동일한 구조로 운영했습니다.",
-                "basis": "direct: Claude Code CLI, Ollama를 실행 엔진으로 사용해 로컬·서버 환경을 동일한 구조로 운영."
+                "text": "Claude Code CLI, Ollama를 실행 엔진으로 사용해 로컬·서버 환경을 동일한 구조로 운영했습니다."
               },
               {
-                "text": "분석 결과 데이터를 저장해 웹에서 리포트로 볼 수 있게 했습니다.",
-                "basis": "user-answer 2026-10-21 Q43: Q43 「데이터를 저장해서 웹에서 그 데이터 리포트를 볼 수 있게 했다.」"
+                "text": "분석 결과 데이터를 저장해 웹에서 리포트로 볼 수 있게 했습니다."
               }
             ]
           },
@@ -3451,12 +3277,10 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "월간 운영 리포트 자동 생성까지 구현했습니다.",
-                "basis": "direct: 월간 운영 리포트 자동 생성까지 구현."
+                "text": "월간 운영 리포트 자동 생성까지 구현했습니다."
               },
               {
-                "text": "실제 의사결정에 도움이 된다는 피드백을 받았습니다.",
-                "basis": "user-answer 2026-10-21 Q44: Q44 「실제 의삭결정에 도움이 된다고 피드백 받았다.」"
+                "text": "실제 의사결정에 도움이 된다는 피드백을 받았습니다."
               }
             ]
           }
@@ -3574,8 +3398,7 @@ window.RESUME = {
           ],
           "hl": [
             "rep"
-          ],
-          "caption": "규칙 기반 산출 → LLM 문장 작성 → 웹 리포트 흐름은 본인 답변(Q42·Q43). Linux Cron·FastAPI는 프로젝트 기술 목록 기준이며 실행 주기는 원문에 없음."
+          ]
         },
         "tech": [
           "Python",
@@ -3596,8 +3419,7 @@ window.RESUME = {
         "role": "R&D실장 · 시스템 설계 및 개발",
         "featured": true,
         "oneLine": {
-          "text": "LLM(Claude·Ollama)을 활용해 자연어를 SQL로 변환하고 데이터를 조회하는 NL2SQL 시스템을 설계·개발.",
-          "basis": "direct: experience[studio-lennon].projects[4].achievements[0]"
+          "text": "LLM(Claude·Ollama)을 활용해 자연어를 SQL로 변환하고 데이터를 조회하는 NL2SQL 시스템을 설계·개발."
         },
         "blocks": [
           {
@@ -3605,12 +3427,10 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "사내 사용자가 매출·외주 데이터를 자연어로 물어보고 조회할 수 있어야 했습니다.",
-                "basis": "inferred-from: 매출·외주 데이터를 조회할 수 있도록 / 자연어를 SQL로 변환하고 데이터를 조회하는 NL2SQL 시스템"
+                "text": "사내 사용자가 매출·외주 데이터를 자연어로 물어보고 조회할 수 있어야 했습니다."
               },
               {
-                "text": "LLM이 만든 SQL을 그대로 실행하지 않고, 안정적으로 조회되도록 검증하는 단계가 필요했습니다.",
-                "basis": "inferred-from: SQL 검증 및 캐싱을 적용해 안정적인 데이터 조회가 가능하도록 구현."
+                "text": "LLM이 만든 SQL을 그대로 실행하지 않고, 안정적으로 조회되도록 검증하는 단계가 필요했습니다."
               }
             ]
           },
@@ -3619,16 +3439,13 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "자연어 입력을 의도 분류 → 조회 조건 생성 → SQL 변환의 3단계로 처리했습니다.",
-                "basis": "direct: 자연어 입력을 의도 분류 조회 조건 생성 SQL 변환의 단계로 처리하고"
+                "text": "자연어 입력을 의도 분류 → 조회 조건 생성 → SQL 변환의 3단계로 처리했습니다."
               },
               {
-                "text": "SQL 검증과 캐싱을 적용했습니다.",
-                "basis": "direct: SQL 검증 및 캐싱을 적용해"
+                "text": "SQL 검증과 캐싱을 적용했습니다."
               },
               {
-                "text": "FastAPI 백엔드에서 매출·외주 데이터를 조회하도록 데이터베이스 연동과 API를 구현하고, LLM 기반 질의 생성 및 검색 기능을 개발했습니다.",
-                "basis": "direct: FastAPI 기반 백엔드에서 매출·외주 데이터를 조회할 수 있도록 데이터베이스 연동과 API를 구현하고, LLM 기반 질의 생성 및 검색 기능을 개발했습니다."
+                "text": "FastAPI 백엔드에서 매출·외주 데이터를 조회하도록 데이터베이스 연동과 API를 구현하고, LLM 기반 질의 생성 및 검색 기능을 개발했습니다."
               }
             ]
           },
@@ -3637,12 +3454,10 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "SQL 검증과 캐싱으로 안정적인 데이터 조회가 가능해졌습니다.",
-                "basis": "direct: SQL 검증 및 캐싱을 적용해 안정적인 데이터 조회가 가능하도록 구현."
+                "text": "SQL 검증과 캐싱으로 안정적인 데이터 조회가 가능해졌습니다."
               },
               {
-                "text": "Next.js 사내 웹에 SSE 채팅과 테이블 UI를 통합해 조회 과정과 결과를 실시간으로 제공했습니다.",
-                "basis": "direct: Next.js 사내 웹에 SSE 채팅과 테이블 UI를 통합해 조회 과정과 결과를 실시간 제공."
+                "text": "Next.js 사내 웹에 SSE 채팅과 테이블 UI를 통합해 조회 과정과 결과를 실시간으로 제공했습니다."
               }
             ]
           }
@@ -3768,8 +3583,7 @@ window.RESUME = {
           "hl": [
             "v",
             "ui"
-          ],
-          "caption": "3단계는 원문 처리 단계(pipelineStages). LangGraph·ko-sroberta·Qdrant는 기술 목록에 있으나 도식 내 위치는 원문에 없어 표시하지 않음."
+          ]
         },
         "tech": [
           "FastAPI",
@@ -3788,8 +3602,7 @@ window.RESUME = {
           {
             "value": 3,
             "unit": "단계",
-            "label": "자연어 → SQL 처리 단계 (의도 분류 · 조회 조건 생성 · SQL 변환)",
-            "basis": "direct: pipelineStages [의도 분류, 조회 조건 생성, SQL 변환]"
+            "label": "자연어 → SQL 처리 단계 (의도 분류 · 조회 조건 생성 · SQL 변환)"
           }
         ],
         "no": 18
@@ -3802,8 +3615,7 @@ window.RESUME = {
         "role": "연구원 · 설계 및 구현",
         "featured": false,
         "oneLine": {
-          "text": "영상·음성·텍스트 분석 파이프라인과 Next.js 웹 UI 구축. Whisper의 음성 텍스트 변환 결과를 LLM에 연결해 영상 기반 질의응답 구현.",
-          "basis": "direct: experience[studio-lennon].projects[5].achievements[0]"
+          "text": "영상·음성·텍스트 분석 파이프라인과 Next.js 웹 UI 구축. Whisper의 음성 텍스트 변환 결과를 LLM에 연결해 영상 기반 질의응답 구현."
         },
         "blocks": [
           {
@@ -3811,12 +3623,10 @@ window.RESUME = {
             "label": "과제",
             "items": [
               {
-                "text": "키오스크에 영상을 띄워 회사 방문객과 대화하는 시스템을 목표로 연구했습니다.",
-                "basis": "user-answer 2026-10-21 Q45: Q45 「키오스크에 영상을 띄워서 사용자와 대화를 나누는 건 만들려고 했었다. 회사 방문객 대상으로 연구했다.」"
+                "text": "키오스크에 영상을 띄워 회사 방문객과 대화하는 시스템을 목표로 연구했습니다."
               },
               {
-                "text": "여러 분석 요청이 한꺼번에 들어와도 처리 흐름이 흔들리지 않아야 했습니다.",
-                "basis": "inferred-from: 메시지 큐로 다수 요청을 순차 처리하는 구조를 적용해 처리 흐름의 안정성 확보."
+                "text": "여러 분석 요청이 한꺼번에 들어와도 처리 흐름이 흔들리지 않아야 했습니다."
               }
             ]
           },
@@ -3825,28 +3635,22 @@ window.RESUME = {
             "label": "수행 내용",
             "items": [
               {
-                "text": "영상·음성·텍스트 분석 파이프라인과 Next.js 웹 UI를 구축했습니다.",
-                "basis": "direct: 영상·음성·텍스트 분석 파이프라인과 Next.js 웹 UI 구축."
+                "text": "영상·음성·텍스트 분석 파이프라인과 Next.js 웹 UI를 구축했습니다."
               },
               {
-                "text": "Whisper의 음성 텍스트 변환 결과를 LLM에 연결해 영상 기반 질의응답을 구현했습니다.",
-                "basis": "direct: Whisper의 음성 텍스트 변환 결과를 LLM에 연결해 영상 기반 질의응답 구현."
+                "text": "Whisper의 음성 텍스트 변환 결과를 LLM에 연결해 영상 기반 질의응답을 구현했습니다."
               },
               {
-                "text": "음성 수음 문제를 해결하기 위해 마이크·외부 수음 노이즈를 제거하는 코드를 만들었습니다.",
-                "basis": "user-answer 2026-10-21 Q47: Q47 「음성 수음의 문제로 마이크와 외부 수음 노이즈를 제거 하는 코드 만들었다」"
+                "text": "음성 수음 문제를 해결하기 위해 마이크·외부 수음 노이즈를 제거하는 코드를 만들었습니다."
               },
               {
-                "text": "답변까지 처리 시간이 걸려, 대기 중임을 보여 주는 애니메이션을 넣었습니다.",
-                "basis": "user-answer 2026-10-21 Q47: Q47 「대답까지 처리시간이 있어서 대기 하는 애니메이션을 넣는 걸 했고.」"
+                "text": "답변까지 처리 시간이 걸려, 대기 중임을 보여 주는 애니메이션을 넣었습니다."
               },
               {
-                "text": "메시지 큐로 다수 요청을 순차 처리하는 구조를 적용했습니다.",
-                "basis": "direct: 메시지 큐로 다수 요청을 순차 처리하는 구조를 적용해"
+                "text": "메시지 큐로 다수 요청을 순차 처리하는 구조를 적용했습니다."
               },
               {
-                "text": "메시지 큐는 Redis를 사용했습니다.",
-                "basis": "user-answer 2026-10-21 Q46: Q46 「Redis 사용」"
+                "text": "메시지 큐는 Redis를 사용했습니다."
               }
             ]
           },
@@ -3855,12 +3659,10 @@ window.RESUME = {
             "label": "성과",
             "items": [
               {
-                "text": "처리 흐름의 안정성을 확보했습니다.",
-                "basis": "direct: 처리 흐름의 안정성 확보."
+                "text": "처리 흐름의 안정성을 확보했습니다."
               },
               {
-                "text": "연구 과정에서 오픈소스의 한글 처리가 부정확하다는 한계를 확인했습니다.",
-                "basis": "user-answer 2026-10-21 Q47: Q47 「오픈 소스에서 한글 처리 부정확」"
+                "text": "연구 과정에서 오픈소스의 한글 처리가 부정확하다는 한계를 확인했습니다."
               }
             ]
           }
@@ -3987,8 +3789,7 @@ window.RESUME = {
           "hl": [
             "mq",
             "qa"
-          ],
-          "caption": "키오스크·Redis·노이즈 제거·대기 애니메이션은 본인 답변(Q45–Q47). 노이즈 제거의 파이프라인 내 위치는 표현상 배치."
+          ]
         },
         "tech": [
           "Next.js",
@@ -4342,20 +4143,17 @@ window.RESUME = {
       {
         "label": "총 경력",
         "value": "17년 5개월",
-        "months": 209,
-        "basis": "direct: overview.career.total 총 17년 5개월"
+        "months": 209
       },
       {
         "label": "Java / Spring",
         "value": "약 8년",
-        "months": 96,
-        "basis": "direct: summary.highlights[1] 약 8년의 실무 경험 (8년=96개월로 환산)"
+        "months": 96
       },
       {
         "label": "최장 재직 · 로커스",
         "value": "7년 7개월",
-        "months": 91,
-        "basis": "direct: experience[locus].duration 7년 7개월"
+        "months": 91
       }
     ],
     "barMeasure": "막대 = 총 경력 209개월 대비"
